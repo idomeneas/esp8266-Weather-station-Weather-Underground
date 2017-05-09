@@ -6,18 +6,18 @@
 
 #include "SparkFun_Si7021_Breakout_Library.h"   
   
-const char* ssid     = "idomeneas"; 
-const char* password = "H456JV4J5T45-6643";
+const char* ssid     = "**********"; 
+const char* password = "************";
 const int sleepTimeS = 600; //18000 for Half hour, 300 for 5 minutes etc.
                                
 ///////////////Weather//////////////////////// 
-String apiKey = "2XEIHQVX5HD9LG12";
+String apiKey = "**************";
 const char* server2 = "api.thingspeak.com";
 
 const char* host = "weatherstation.wunderground.com";  
 char WEBPAGE [] = "GET /weatherstation/updateweatherstation.php?";
-const char* WUID    = "ICHANIA8";
-const char* WUPASS   = "torpilakatos";
+const char* WUID    = "******";
+const char* WUPASS   = "*********";
 float vbatt= 0;
 
 
